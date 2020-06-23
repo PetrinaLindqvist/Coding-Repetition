@@ -6,7 +6,16 @@ namespace sandbox
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           while (true)
+            {
+                Console.WriteLine("Give a number:");
+                int nbr = Convert.ToInt32(Console.ReadLine());
+
+                if (nbr == 42)
+                {
+                break;
+                }
+            }
         }
     }
 }
