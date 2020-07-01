@@ -45,6 +45,7 @@ namespace exercise_92
 
       Console.WriteLine("Longest name: " + longestName);
       Console.WriteLine("Highest age: " + age);
+      
     }
   }
 }
