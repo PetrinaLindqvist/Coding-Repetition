@@ -17,7 +17,8 @@ namespace exercise_68
         }
         list.Add(input);
       }
-
+      
+      list.ForEach(Console.WriteLine);      
     }
   }
 }
