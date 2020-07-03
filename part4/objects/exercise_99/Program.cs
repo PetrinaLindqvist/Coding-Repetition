@@ -11,7 +11,8 @@ namespace exercise_99
       counter.PrintValue();
 
       counter.Reset();
-      counter.PrintValue();
+      counter.PrintValue();   
+
     }
   }
 }
