@@ -18,22 +18,32 @@ namespace exercise_128
 
     public bool LargerThan(Apartment compared)
     {
+      if(this.squares > compared.squares)
+      {
+        return true;
+      }
       return false;
     }
 
     private int Price()
     {
-      return 0;
+      return this.squares * this.pricePerSquare;
     }
 
     public int PriceDifference(Apartment compared)
     {
       // Math.Abs returns the absolute value
-      return 0;
+     
+        return Math.Abs (compared.Price() - this.Price());
+   
     }
 
     public bool MoreExpensiveThan(Apartment compared)
     {
+      if(this.pricePerSquare > compared.pricePerSquare)
+      {
+        return true;
+      }
       return false;
     }
   }

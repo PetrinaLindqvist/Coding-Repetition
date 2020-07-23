@@ -1,3 +1,4 @@
+using System;
 namespace exercise_127
 {
   public class Person
@@ -23,7 +24,7 @@ namespace exercise_127
     public override string ToString()
     {
       // MODIFY THE FOLLOWING:
-      return this.name;
+      return this.name + ", has a friend called " + pet.name + " (" + pet.breed  + ")";
       
     }
 
