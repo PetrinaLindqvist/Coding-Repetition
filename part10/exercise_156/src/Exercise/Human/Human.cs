@@ -15,9 +15,28 @@ namespace Exercise
 
     public int CompareTo(Human another)
     {
-      // BEGIN SOLUTION
-      return 0;
-      // END SOLUTION
+     
+      if (another == null)
+      {
+        return 1;
+      }
+      
+      if (this.wage == another.wage)
+      {
+        return 0;
+      }
+    
+      else if (this.wage > another.wage)
+      {
+        return -1;
+      }
+  
+      else
+      {
+        return 1;
+      }
+     
+      
     }
     
 
